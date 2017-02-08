@@ -1,0 +1,3 @@
+ejemplo desde mi computadora
+cd /home/rafael/PycharmProjects/untitled
+cat test.txt | python MapAmigos.py | python RedAmigos.py > recomendaciones.txt
