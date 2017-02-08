@@ -1,0 +1,1 @@
+ hadoop jar /home/rafael/hadoop-2.7.3/share/hadoop/tools/lib/hadoop-streaming-2.7.3.jar -file /home/rafael/PycharmProjects/map_friends_rec.py -mapper /home/rafael/PycharmProjects/map_friends_rec.py -file /home/rafael/PycharmProjects/reduce_friends_rec.py -reducer /home/rafael/PycharmProjects/reduce_friends_rec.py -input Desktop/mapreduce/test.txt -output Desktop/output
